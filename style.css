@@ -814,6 +814,24 @@ footer::before {
         height: auto;
     }
 
+    .twoCol {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .textSumm,
+    .textInfo {
+        padding: 20px 0;
+    }
+
+    .textSumm {
+        text-align: left;
+    }
+
+    .textInfo {
+        text-align: right;
+    }
+
     .emailLink p {
         width: 100%;
         text-align: center;
