@@ -790,7 +790,7 @@ footer::before {
 
     .copyright {
         text-align: center;
-        padding: 20px 0;
+        padding: 0 0 20px 0;
     }
 
     .newsSectionContainer {
@@ -864,5 +864,31 @@ footer::before {
 
     .guide {
         flex-direction: column;
+    }
+}
+
+@media (width: 1024px) {
+    .nav-links {
+        padding: 0 50px;
+    }
+
+    .nav-links li {
+        padding: 10px 0;
+    }
+
+    .nav-links a {
+        font-size: 20px;
+    }
+
+    .slideshow-container {
+        padding: 0 50px;
+    }
+
+    .info {
+        padding: 20px 50px;
+    }
+
+    footer {
+        padding: 20px 50px;
     }
 }
